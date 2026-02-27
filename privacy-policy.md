@@ -1,201 +1,391 @@
-# Privacy Policy
+# Politique de Confidentialité / Privacy Policy
 
-**App:** Ach
-**Version:** 1.0
-**Effective date:** 2026-02-20
-**Last updated:** 2026-02-20
+**Application : Ach — Scanner Alimentaire**
+**Version : 1.0**
+**Date d'entrée en vigueur : [TBD]**
+**Contact : cs.ach.app@outlook.com**
 
 ---
+
+# 🇫🇷 FRANÇAIS
 
 ## 1. Introduction
 
-Ach ("we", "our", "us") is committed to protecting your personal data. This Privacy Policy explains what data we collect, why we collect it, how we use and protect it, and what rights you have.
+La présente Politique de Confidentialité décrit comment l'application **Ach** (ci-après « l'Application ») collecte, utilise, stocke et protège vos données personnelles.
 
-This policy applies to all users of the Ach mobile application and complies with:
+L'Application est éditée par **[ACH/TBD]**.
 
-- **Morocco Law 09-08** on the Protection of Individuals with Regard to the Processing of Personal Data, and the regulations of the **Commission Nationale de contrôle de la Protection des Données à caractère Personnel (CNDP)**;
-- The **EU General Data Protection Regulation (GDPR)** (Regulation 2016/679) for users located in the European Economic Area.
+En utilisant l'Application, vous acceptez les pratiques décrites dans la présente politique. Si vous n'acceptez pas ces pratiques, veuillez ne pas utiliser l'Application.
 
 ---
 
-## 2. Data We Collect
+## 2. Responsable du traitement
 
-### 2.1 Data You Provide Directly
+**[TBD]**
+Email : cs.ach.app@outlook.com
+
+---
+
+## 3. Données collectées
+
+### 3.1 Données personnelles
+
+| Donnée | Finalité |
+|--------|---------|
+| Adresse email | Création et gestion du compte, communications |
+| Nom d'affichage | Personnalisation de l'expérience utilisateur |
+| Identifiant unique Firebase (UID) | Authentification et sécurité |
+| Préférences alimentaires | Personnalisation des alertes et recommandations |
+
+Les préférences alimentaires (allergies, intolérances, choix d'éviter certains ingrédients) constituent des **données relatives à la santé** au sens du RGPD. Leur traitement est fondé sur votre consentement explicite, que vous pouvez retirer à tout moment depuis les paramètres de l'Application.
+
+### 3.2 Données d'utilisation
+
+| Donnée | Finalité |
+|--------|---------|
+| Historique de scans | Fonctionnement de l'app, historique personnel |
+| Produits ajoutés aux favoris | Fonctionnalité de favoris |
+| Contributions produits soumises | Enrichissement de la base de données |
+
+### 3.3 Données produit (contributions utilisateurs)
+
+Lorsque vous contribuez à l'ajout d'un produit, les données suivantes sont collectées :
+- Photos des étiquettes et emballages
+- Texte des ingrédients
+- Valeurs nutritionnelles
+- Métadonnées associées (date, pays de vente)
+
+Ces contributions deviennent **publiques** après modération et validation par notre équipe. En soumettant une contribution, vous acceptez que ces données soient accessibles publiquement et utilisées pour améliorer la base de données produits.
+
+### 3.4 Données techniques
+
+| Donnée | Finalité |
+|--------|---------|
+| Journaux d'erreurs (logs) | Débogage et amélioration du service |
+| Métadonnées de session | Sécurité et détection d'abus |
+| Horodatages | Intégrité des données |
+| État de connectivité | Synchronisation hors ligne |
+
+### 3.5 Données agrégées et anonymisées
+
+Nous pouvons utiliser des données agrégées et statistiques (tendances de scan, catégories de produits populaires, etc.) pour améliorer le service. Ces données ne permettent pas d'identifier un utilisateur individuel.
+
+---
+
+## 4. Finalités du traitement
+
+Vos données sont traitées pour les finalités suivantes :
+
+1. **Création et gestion de votre compte**
+2. **Fourniture du service** — scan de produits, analyse d'ingrédients, alertes personnalisées
+3. **Communications liées au compte** — confirmation d'inscription, réinitialisation de mot de passe, suppression de compte
+4. **Mises à jour du service** — notifications relatives aux changements importants de l'Application
+5. **Annonces produit** — nouvelles fonctionnalités de l'Application
+6. **Amélioration du service** — analyse des usages pour améliorer les fonctionnalités
+7. **Modération des contributions** — vérification de l'exactitude des données produit soumises
+8. **Analyse comportementale agrégée** — amélioration des algorithmes de recommandation, sur la base de données anonymisées
+
+---
+
+## 5. Base légale du traitement (RGPD)
+
+| Traitement | Base légale |
+|-----------|------------|
+| Création et gestion du compte | Exécution du contrat (Art. 6.1.b) |
+| Préférences alimentaires (données de santé) | Consentement explicite (Art. 9.2.a) |
+| Communications de service | Exécution du contrat (Art. 6.1.b) |
+| Annonces produit | Intérêt légitime (Art. 6.1.f) |
+| Amélioration du service | Intérêt légitime (Art. 6.1.f) |
+| Données techniques | Intérêt légitime (Art. 6.1.f) |
+
+---
+
+## 6. Sous-traitants techniques
+
+Vos données peuvent être traitées par les sous-traitants techniques suivants, dans le cadre exclusif de la fourniture du service :
+
+| Sous-traitant | Données traitées | Finalité |
+|--------------|-----------------|---------|
+| **Google Firebase** (Auth, Firestore, Storage) | Compte, données produit, historique | Infrastructure, authentification, stockage |
+| **Google Gemini API** | Images d'étiquettes, texte d'ingrédients | Analyse automatisée, extraction de données |
+| **Google ML Kit** | Images capturées sur l'appareil | Reconnaissance optique de caractères (OCR) |
+
+**Concernant Gemini API :** les images et textes de labels transmis à l'API Gemini sont utilisés uniquement pour générer une réponse d'analyse. Ce traitement est soumis à la [politique de confidentialité de Google](https://policies.google.com/privacy). Aucune donnée personnelle identifiable n'est intentionnellement incluse dans ces transmissions.
+
+Nous ne vendons pas vos données personnelles à des tiers.
+
+---
+
+## 7. Fonctionnalités futures — Évolution de la collecte
+
+L'Application est en développement actif. Les fonctionnalités suivantes sont envisagées pour des versions futures et impliqueront une collecte de données supplémentaire, **uniquement avec votre consentement explicite préalable** :
+
+- **Localisation géographique** : dans le cadre d'une fonctionnalité permettant de localiser des produits dans des commerces à proximité. Cette collecte sera optionnelle, activée uniquement si vous choisissez d'utiliser cette fonctionnalité, et pourra être désactivée à tout moment.
+
+- **Communications marketing de partenaires** : si vous optez pour la réception de communications de partenaires sélectionnés, votre email pourra être utilisé à cet effet. Ce consentement sera recueilli séparément, via un opt-in explicite, et ne sera jamais inclus dans l'acceptation des présentes conditions.
+
+- **Partage de données agrégées avec des partenaires** : des données anonymisées et agrégées pourront être partagées avec des partenaires à des fins d'analyse de marché. Ce traitement fera l'objet d'une mise à jour de la présente politique et d'une demande de consentement si requis.
+
+Toute évolution significative de la collecte de données fera l'objet d'une mise à jour de cette politique et, si nécessaire, d'une demande de re-acceptation.
+
+---
+
+## 8. Durée de conservation
+
+| Donnée | Durée de conservation |
+|--------|----------------------|
+| Données de compte actif | Durée de vie du compte |
+| Historique de scans | Durée de vie du compte |
+| Contributions produits | Indéfiniment (données publiques après validation) |
+| Données techniques / logs | 90 jours |
+| Données de compte supprimé | Anonymisation immédiate, suppression sous 30 jours |
+
+---
+
+## 9. Vos droits (RGPD)
+
+Conformément au RGPD, vous disposez des droits suivants :
+
+- **Droit d'accès** : obtenir une copie de vos données personnelles
+- **Droit de rectification** : corriger des données inexactes
+- **Droit à l'effacement** : supprimer votre compte et vos données via l'Application (Paramètres → Supprimer mon compte) ou en nous contactant
+- **Droit à la portabilité** : recevoir vos données dans un format structuré
+- **Droit d'opposition** : vous opposer à certains traitements fondés sur l'intérêt légitime
+- **Droit de retrait du consentement** : retirer votre consentement à tout moment pour les traitements fondés sur celui-ci, sans affecter la licéité des traitements antérieurs
+- **Droit de réclamation** : introduire une réclamation auprès de la CNIL (www.cnil.fr)
+
+Pour exercer vos droits : **cs.ach.app@outlook.com**
+Délai de réponse : 30 jours maximum.
+
+---
+
+## 10. Sécurité des données
+
+Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, perte ou destruction, notamment :
+- Authentification sécurisée via Firebase Auth
+- Règles de sécurité Firestore limitant l'accès aux données de chaque utilisateur
+- Transmission des données via HTTPS/TLS
+- Clés API protégées côté serveur
+
+---
+
+## 11. Transferts internationaux
+
+Vos données sont stockées sur les serveurs de Google Firebase, susceptibles d'être situés en dehors de l'Espace Économique Européen. Ces transferts sont encadrés par les clauses contractuelles types approuvées par la Commission Européenne, conformément à l'Article 46 du RGPD.
+
+---
+
+## 12. Droit applicable
+
+La présente politique est régie par le **droit français** et le **Règlement Général sur la Protection des Données (RGPD — UE 2016/679)**, applicables en raison de notre établissement en France.
+
+Pour nos utilisateurs résidant au **Maroc**, nous respectons également les dispositions de la **Loi 09-08** relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel.
+
+Pour les utilisateurs résidant dans d'autres pays, nous nous engageons à respecter les lois locales applicables en matière de protection des données personnelles dans la mesure du possible. En cas de conflit entre ces réglementations, la protection la plus élevée accordée à l'utilisateur prévaut.
+
+---
+
+## 13. Modifications de la politique
+
+Nous pouvons modifier la présente politique à tout moment. En cas de modification substantielle, vous serez notifié(e) via l'Application et/ou par email. La version en vigueur est toujours disponible à l'adresse indiquée dans les paramètres de l'Application. La poursuite de l'utilisation de l'Application après notification vaut acceptation des modifications.
+
+---
+
+## 14. Contact
+
+Pour toute question relative à la présente politique ou à vos données personnelles :
+
+**Email : cs.ach.app@outlook.com**
+
+---
+---
+
+# 🇬🇧 ENGLISH
+
+## 1. Introduction
+
+This Privacy Policy describes how the **Ach** application (hereinafter "the App") collects, uses, stores, and protects your personal data.
+
+The App is published by **[Ach App/TBD]**.
+
+By using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.
+
+---
+
+## 2. Data Controller
+
+**[Ach/TBD]**
+Email: cs.ach.app@outlook.com
+
+---
+
+## 3. Data Collected
+
+### 3.1 Personal Data
 
 | Data | Purpose |
 |------|---------|
-| **Email address** | Account creation and authentication |
-| **Dietary preferences** | Personalized ingredient and allergen analysis |
-| **Product contributions** | Photos, ingredient lists, nutritional data you submit for missing products |
+| Email address | Account creation and management, communications |
+| Display name | User experience personalization |
+| Firebase unique identifier (UID) | Authentication and security |
+| Dietary preferences | Personalized alerts and recommendations |
 
-### 2.2 Data Generated by Your Use of the App
+Dietary preferences (allergies, intolerances, ingredient avoidance choices) constitute **health-related data** under GDPR. Their processing is based on your explicit consent, which you may withdraw at any time from the App settings.
+
+### 3.2 Usage Data
 
 | Data | Purpose |
 |------|---------|
-| **Scan history** | Displaying your past scans; improving recommendation accuracy |
-| **Favorites** | Storing products you have saved |
-| **Device identifiers** | Authentication tokens managed by Firebase Auth |
+| Scan history | App functionality, personal history |
+| Favorited products | Favorites feature |
+| Submitted product contributions | Database enrichment |
 
-### 2.3 Data We Plan to Collect in Future Versions
+### 3.3 Product Data (User Contributions)
 
-| Data | Purpose | Status |
-|------|---------|--------|
-| **Location data** | Identifying locally available products; region-specific analysis | Planned — will require explicit opt-in consent before collection begins |
+When you contribute a product, the following data is collected:
+- Photos of labels and packaging
+- Ingredient text
+- Nutritional values
+- Associated metadata (date, country of sale)
 
-We will notify you and request fresh consent before any new data category is collected.
+Contributions become **public** after moderation and validation by our team. By submitting a contribution, you agree that this data will be publicly accessible and used to improve the product database.
 
----
+### 3.4 Technical Data
 
-## 3. How We Use Your Data
+| Data | Purpose |
+|------|---------|
+| Error logs | Debugging and service improvement |
+| Session metadata | Security and abuse detection |
+| Timestamps | Data integrity |
+| Connectivity state | Offline synchronization |
 
-We process your data on the following legal bases:
+### 3.5 Aggregated and Anonymized Data
 
-| Processing activity | Legal basis |
-|--------------------|-------------|
-| Authenticating your account | **Contract performance** |
-| Personalizing ingredient and allergen analysis to your preferences | **Contract performance** |
-| Storing and displaying your scan history | **Contract performance** |
-| Moderating product contributions | **Legitimate interest** (maintaining database accuracy) |
-| Improving the App and product database | **Legitimate interest** |
-| Complying with legal obligations (e.g., GDPR data subject requests) | **Legal obligation** |
-| Future advertising (if implemented — see Section 9) | **Consent** (will be requested separately) |
-
-We do **not** sell your personal data to third parties.
+We may use aggregated and statistical data (scan trends, popular product categories, etc.) to improve the service. This data does not allow identification of individual users.
 
 ---
 
-## 4. Data Sharing
+## 4. Processing Purposes
 
-We share your data only in the following circumstances:
+Your data is processed for the following purposes:
 
-### 4.1 Service Providers
-
-We use the following third-party processors, each bound by appropriate data processing agreements:
-
-- **Google Firebase** (Google LLC) — authentication, database (Firestore), and file storage. Data may be processed in the United States or other regions where Google operates. Google is certified under the EU-U.S. Data Privacy Framework.
-- **Google Gemini AI** (Google LLC) — cloud-based ingredient analysis from product images and OCR text.
-
-### 4.2 Legal Requirements
-
-We may disclose your data if required to do so by law, court order, or a competent authority, including the CNDP (Morocco) or applicable EU supervisory authorities.
-
-### 4.3 Anonymized Contribution Data
-
-Product data you contribute that has been approved and incorporated into our shared product database may be retained in anonymized form even after account deletion, as it no longer constitutes personal data.
+1. **Account creation and management**
+2. **Service delivery** — product scanning, ingredient analysis, personalized alerts
+3. **Account-related communications** — registration confirmation, password reset, account deletion
+4. **Service updates** — notifications of important App changes
+5. **Product announcements** — new App features
+6. **Service improvement** — usage analysis to improve features
+7. **Contribution moderation** — verification of submitted product data accuracy
+8. **Aggregated behavioral analysis** — improving recommendation algorithms, based on anonymized data
 
 ---
 
-## 5. Data Retention
+## 5. Legal Basis for Processing (GDPR)
 
-| Data | Retention period |
-|------|----------------|
-| Account data (email, preferences) | Until account deletion |
-| Scan history | Until account deletion, or earlier if deleted by you |
-| Contribution data (pending/rejected) | 90 days after rejection, then deleted |
-| Contribution data (approved, anonymized) | Indefinitely as part of the product database |
-| Firebase authentication tokens | Session-based; invalidated on sign-out or deletion |
-
----
-
-## 6. Your Rights
-
-Depending on your location, you have the following rights over your personal data:
-
-### 6.1 All Users (Morocco Law 09-08)
-
-- **Right of access:** Request a copy of the personal data we hold about you.
-- **Right of rectification:** Request correction of inaccurate or incomplete data.
-- **Right of deletion:** Request deletion of your personal data (see Section 7).
-- **Right to object:** Object to processing based on legitimate interest.
-- **Right to lodge a complaint:** With the CNDP (www.cndp.ma).
-
-### 6.2 EU/EEA Users (GDPR — Additional Rights)
-
-- **Right to restriction:** Request that we restrict processing of your data in certain circumstances.
-- **Right to data portability:** Receive your data in a structured, machine-readable format.
-- **Right to withdraw consent:** Where processing is based on consent, you may withdraw it at any time without affecting the lawfulness of prior processing.
-- **Right to lodge a complaint:** With your local EU supervisory authority in addition to or instead of the CNDP.
-
-To exercise any of these rights, contact us at **cs.ach.app@outlook.com**. We will respond within **30 days** (or within the statutory deadline required by applicable law).
+| Processing | Legal Basis |
+|-----------|------------|
+| Account creation and management | Contract performance (Art. 6.1.b) |
+| Dietary preferences (health data) | Explicit consent (Art. 9.2.a) |
+| Service communications | Contract performance (Art. 6.1.b) |
+| Product announcements | Legitimate interest (Art. 6.1.f) |
+| Service improvement | Legitimate interest (Art. 6.1.f) |
+| Technical data | Legitimate interest (Art. 6.1.f) |
 
 ---
 
-## 7. Account and Data Deletion
+## 6. Technical Processors
 
-You can permanently delete your account and all associated personal data directly in the App:
+Your data may be processed by the following technical sub-processors, solely for the purpose of providing the service:
 
-**Profile → Delete Account**
+| Sub-processor | Data Processed | Purpose |
+|--------------|---------------|---------|
+| **Google Firebase** (Auth, Firestore, Storage) | Account, product data, history | Infrastructure, authentication, storage |
+| **Google Gemini API** | Label images, ingredient text | Automated analysis, data extraction |
+| **Google ML Kit** | Images captured on device | Optical character recognition (OCR) |
 
-Upon deletion:
-- Your account, email, dietary preferences, scan history, and favorites are permanently erased.
-- Pending or rejected contributions are deleted within 90 days.
-- Approved contributions incorporated into the shared product database are retained in fully anonymized form and can no longer be linked to you.
+**Regarding Gemini API:** label images and text transmitted to the Gemini API are used solely to generate an analysis response. This processing is subject to [Google's Privacy Policy](https://policies.google.com/privacy). No personally identifiable data is intentionally included in these transmissions.
 
-This process complies with both Morocco Law 09-08 and GDPR Article 17 (right to erasure).
-
----
-
-## 8. Data Security
-
-We implement the following technical and organizational measures to protect your data:
-
-- Authentication via Firebase Auth with secure token management.
-- All data transmitted between the App and Firebase is encrypted in transit (TLS).
-- Firestore security rules restrict data access to authenticated users and admins only.
-- API keys are stored in environment configuration files and are not embedded in application binaries.
-- Access to the admin dashboard is restricted to authorized personnel.
-
-No system is completely secure. If you believe your account has been compromised, contact us immediately at **cs.ach.app@outlook.com**.
+We do not sell your personal data to third parties.
 
 ---
 
-## 9. Advertising (Planned)
+## 7. Future Features — Data Collection Evolution
 
-We may introduce **in-app advertising** in a future version of the App. If we do:
+The App is under active development. The following features are planned for future versions and will involve additional data collection, **only with your prior explicit consent**:
 
-- We will request your explicit consent before displaying personalized ads.
-- You will be able to opt out of personalized advertising while still using the App.
-- Advertising will not be targeted at users under 13.
-- Any advertising SDK introduced will be listed in an updated version of this policy, and we will notify you of the change.
+- **Geographic location**: as part of a feature allowing users to locate products in nearby stores. This collection will be optional, activated only if you choose to use this feature, and can be disabled at any time.
 
----
+- **Partner marketing communications**: if you opt in to receiving communications from selected partners, your email may be used for this purpose. This consent will be collected separately via an explicit opt-in and will never be included in the acceptance of these terms.
 
-## 10. Children's Privacy
+- **Sharing aggregated data with partners**: anonymized and aggregated data may be shared with partners for market analysis purposes. This processing will be subject to an update of this policy and a consent request where required.
 
-The App is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has provided us with personal data, please contact us at **cs.ach.app@outlook.com** and we will delete it promptly.
+Any significant evolution in data collection will result in an update to this policy and, where necessary, a request for re-acceptance.
 
 ---
 
-## 11. International Data Transfers
+## 8. Data Retention
 
-Your data may be processed outside Morocco (e.g., in the United States via Google Firebase). When transferring data outside Morocco or the EEA, we rely on:
-
-- Standard Contractual Clauses (SCCs) approved by the European Commission, and/or
-- Providers certified under recognized adequacy frameworks (e.g., EU-U.S. Data Privacy Framework).
-
----
-
-## 12. Changes to This Policy
-
-We may update this Privacy Policy at any time. When we do, we will:
-
-1. Update the "Last updated" date and version number at the top of this document.
-2. Display an in-app notice and, where required by law, request your renewed consent.
-
-Material changes — particularly those that expand the categories of data collected or change how data is used — will always trigger an in-app acceptance prompt before taking effect.
+| Data | Retention Period |
+|------|-----------------|
+| Active account data | Duration of account |
+| Scan history | Duration of account |
+| Product contributions | Indefinitely (public data after validation) |
+| Technical data / logs | 90 days |
+| Deleted account data | Immediate anonymization, deletion within 30 days |
 
 ---
 
-## 13. Contact and Data Controller
+## 9. Your Rights (GDPR)
 
-**Data Controller:**
-Ach App
+Under GDPR, you have the following rights:
 
-**Email:** cs.ach.app@outlook.com
+- **Right of access**: obtain a copy of your personal data
+- **Right of rectification**: correct inaccurate data
+- **Right to erasure**: delete your account and data via the App (Settings → Delete my account) or by contacting us
+- **Right to portability**: receive your data in a structured format
+- **Right to object**: object to certain processing based on legitimate interest
+- **Right to withdraw consent**: withdraw your consent at any time for consent-based processing, without affecting the lawfulness of prior processing
+- **Right to lodge a complaint**: file a complaint with the CNIL (www.cnil.fr) or your local data protection authority
 
-For GDPR inquiries or formal data subject requests, please email us with the subject line **"Data Subject Request"** and include your registered email address. We will respond within **30 days**.
+To exercise your rights: **cs.ach.app@outlook.com**
+Response time: maximum 30 days.
 
 ---
 
-*This Privacy Policy was last updated on 2026-02-20 (v1.0).*
+## 10. Data Security
 
+We implement appropriate technical and organizational measures to protect your data against unauthorized access, loss, or destruction, including:
+- Secure authentication via Firebase Auth
+- Firestore security rules limiting access to each user's own data
+- Data transmission via HTTPS/TLS
+- API keys protected server-side
+
+---
+
+## 11. International Transfers
+
+Your data is stored on Google Firebase servers, which may be located outside the European Economic Area. These transfers are governed by standard contractual clauses approved by the European Commission, in accordance with Article 46 of the GDPR.
+
+---
+
+## 12. Applicable Law
+
+This policy is governed by **French law** and the **General Data Protection Regulation (GDPR — EU 2016/679)**, applicable due to our establishment in France.
+
+For users residing in **Morocco**, we also comply with the provisions of **Law 09-08** relating to the protection of individuals with regard to the processing of personal data.
+
+For users residing in other countries, we commit to complying with applicable local data protection laws to the best of our ability. In the event of conflict between these regulations, the highest level of protection afforded to the user shall prevail.
+
+---
+
+## 13. Policy Changes
+
+We may modify this policy at any time. In the event of a material change, you will be notified via the App and/or by email. The current version is always available at the address indicated in the App settings. Continued use of the App after notification constitutes acceptance of the changes.
+
+---
+
+## 14. Contact
+
+For any questions regarding this policy or your personal data:
+
+**Email: cs.ach.app@outlook.com**
