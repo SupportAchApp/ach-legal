@@ -2,7 +2,7 @@
 
 **Application : Ach — Scanner Alimentaire**
 **Version : 1.0**
-**Date d'entrée en vigueur : [DATE]**
+**Date d'entrée en vigueur : 01/09/2026
 **Contact : cs.ach.app@outlook.com**
 
 ---
@@ -17,7 +17,7 @@
 - Recevoir des alertes personnalisées selon leurs préférences alimentaires
 - Contribuer à l'enrichissement d'une base de données produits collaborative
 
-L'Application est éditée par **[TON PRÉNOM NOM]**.
+L'Application est éditée par Ayoub EL HAZZAZ
 Contact : cs.ach.app@outlook.com
 
 ---
