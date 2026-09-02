@@ -2,7 +2,7 @@
 
 **Application : Ach — Scanner Alimentaire**
 **Version : 1.0**
-**Date d'entrée en vigueur : [TBD]**
+**Date d'entrée en vigueur : 01/09/2026
 **Contact : cs.ach.app@outlook.com**
 
 ---
@@ -13,7 +13,7 @@
 
 La présente Politique de Confidentialité décrit comment l'application **Ach** (ci-après « l'Application ») collecte, utilise, stocke et protège vos données personnelles.
 
-L'Application est éditée par **[ACH/TBD]**.
+L'Application est éditée par Ayoub EL
 
 En utilisant l'Application, vous acceptez les pratiques décrites dans la présente politique. Si vous n'acceptez pas ces pratiques, veuillez ne pas utiliser l'Application.
 
