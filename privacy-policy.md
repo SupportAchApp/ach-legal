@@ -1,3 +1,6 @@
+---
+---
+
 # Politique de Confidentialité / Privacy Policy
 
 **Application : Ach — Scanner Alimentaire**
