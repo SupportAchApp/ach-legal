@@ -171,12 +171,11 @@ Nous nous réservons le droit de :
 
 ## 11. Modèle économique
 
-L'Application est actuellement disponible gratuitement et sans publicité.
+L'Application est disponible gratuitement dans sa version actuelle. Certaines versions ou configurations peuvent afficher des annonces publicitaires, tandis que d'autres n'en affichent pas. Lorsque la publicité est activée, les annonces peuvent être fournies par Google AdMob (Google Mobile Ads). Leur présence et leur type peuvent varier selon la plateforme, le pays et la configuration de l'Application.
 
-Nous nous réservons le droit de faire évoluer ce modèle dans le futur, notamment :
-- En introduisant une version premium payante offrant des fonctionnalités avancées
-- En affichant de la publicité non intrusive, y compris des publicités fournies par des réseaux publicitaires tiers
-- En proposant des achats in-app
+Les annonces peuvent être personnalisées ou non, selon les paramètres applicables et les choix de l'utilisateur lorsque ceux-ci sont requis. Les données susceptibles d'être traitées pour leur diffusion sont décrites dans notre [Politique de confidentialité](https://supportachapp.github.io/ach-legal/privacy-policy.html).
+
+Nous pouvons également faire évoluer ce modèle en introduisant une version premium payante ou des achats intégrés ; ces offres seront présentées avec leurs conditions avant tout achat.
 
 Nous nous engageons à ce que toute publicité affichée soit clairement identifiée comme telle et n'influence jamais les scores, analyses ou recommandations produit de l'Application.
 
@@ -389,12 +388,11 @@ We reserve the right to:
 
 ## 11. Business Model
 
-The App is currently available free of charge and without advertising.
+The App is available free of charge in its current version. Some versions or configurations may display ads, while others do not. When advertising is enabled, ads may be provided by Google AdMob (Google Mobile Ads). Their availability and type may vary by platform, country, and App configuration.
 
-We reserve the right to evolve this model in the future, including:
-- Introducing a paid premium version offering advanced features
-- Displaying non-intrusive advertising, including ads served by third-party advertising networks
-- Offering in-app purchases
+Ads may be personalized or non-personalized, depending on applicable settings and user choices where required. The data that may be processed to deliver ads is described in our [Privacy Policy](https://supportachapp.github.io/ach-legal/privacy-policy.html).
+
+We may also evolve this model by introducing a paid premium version or in-app purchases; their terms will be presented before any purchase.
 
 We commit that any advertising displayed will be clearly identified as such and will never influence the App's product scores, analyses, or recommendations.
 
