@@ -73,6 +73,14 @@ Ces contributions deviennent **publiques** après modération et validation par 
 
 Nous pouvons utiliser des données agrégées et statistiques (tendances de scan, catégories de produits populaires, etc.) pour améliorer le service. Ces données ne permettent pas d'identifier un utilisateur individuel.
 
+### 3.6 Publicité dans certaines versions
+
+Selon la version de l'Application et sa configuration, des annonces peuvent être affichées via Google AdMob (Google Mobile Ads). Lorsque le service publicitaire est utilisé, le SDK de Google peut collecter ou recevoir : l'adresse IP (qui peut servir à estimer une localisation approximative), des identifiants de l'appareil ou publicitaires lorsqu'ils sont disponibles, des interactions avec l'Application et les annonces, ainsi que des données de diagnostic et de performance. Ces données peuvent servir à diffuser et mesurer les annonces, limiter leur répétition et prévenir la fraude. Leur traitement peut varier selon la plateforme, les paramètres de l'appareil, la région et les choix applicables.
+
+Les annonces non personnalisées ne reposent pas sur votre activité passée pour choisir une annonce, mais certains identifiants peuvent encore être utilisés pour limiter la fréquence d'affichage et produire des rapports agrégés. Nous ne transmettons pas volontairement vos allergies ni vos préférences alimentaires à AdMob pour cibler les annonces. L'affichage d'annonces et les choix relatifs à leur personnalisation dépendent des réglages de l'Application et des exigences applicables dans votre région. Vous pouvez également gérer l'identifiant publicitaire dans les paramètres de votre appareil. Pour toute question ou demande concernant vos données, contactez-nous à cs.ach.app@outlook.com.
+
+Pour en savoir plus sur le traitement effectué par Google, consultez la [politique de confidentialité de Google](https://policies.google.com/privacy).
+
 ---
 
 ## 4. Finalités du traitement
@@ -87,6 +95,7 @@ Vos données sont traitées pour les finalités suivantes :
 6. **Amélioration du service** — analyse des usages pour améliorer les fonctionnalités
 7. **Modération des contributions** — vérification de l'exactitude des données produit soumises
 8. **Analyse comportementale agrégée** — amélioration des algorithmes de recommandation, sur la base de données anonymisées
+9. **Publicité, mesure et prévention de la fraude** — uniquement lorsque la publicité est activée dans la version ou la configuration utilisée
 
 ---
 
@@ -112,6 +121,7 @@ Vos données peuvent être traitées par les sous-traitants techniques suivants,
 | **Google Firebase** (Auth, Firestore, Storage) | Compte, données produit, historique | Infrastructure, authentification, stockage |
 | **Google Gemini API** | Images d'étiquettes, texte d'ingrédients | Analyse automatisée, extraction de données |
 | **Google ML Kit** | Images capturées sur l'appareil | Reconnaissance optique de caractères (OCR) |
+| **Google AdMob (Google Mobile Ads)**, si la publicité est activée | Adresse IP, identifiants disponibles, interactions et diagnostics liés à l'Application ou aux annonces | Diffusion et mesure des annonces, limitation de fréquence, prévention de la fraude |
 
 **Concernant Gemini API :** les images et textes de labels transmis à l'API Gemini sont utilisés uniquement pour générer une réponse d'analyse. Ce traitement est soumis à la [politique de confidentialité de Google](https://policies.google.com/privacy). Aucune donnée personnelle identifiable n'est intentionnellement incluse dans ces transmissions.
 
@@ -266,6 +276,14 @@ Contributions become **public** after moderation and validation by our team. By 
 
 We may use aggregated and statistical data (scan trends, popular product categories, etc.) to improve the service. This data does not allow identification of individual users.
 
+### 3.6 Advertising in some versions
+
+Depending on the App version and configuration, ads may be displayed through Google AdMob (Google Mobile Ads). When the advertising service is used, Google's SDK may collect or receive: the IP address (which may be used to estimate approximate location), device or advertising identifiers when available, interactions with the App and ads, and diagnostic and performance data. This data may be used to serve and measure ads, limit how often they are shown, and prevent fraud. Processing may vary by platform, device settings, region, and applicable user choices.
+
+Non-personalized ads do not rely on your past activity to select an ad, but some identifiers may still be used for frequency capping and aggregate reporting. We do not intentionally send your allergies or dietary preferences to AdMob to target ads. Whether ads are shown and the choices about their personalization depend on the App settings and requirements applicable in your region. You can also manage the advertising identifier in your device settings. For questions or requests about your data, contact us at cs.ach.app@outlook.com.
+
+For more information about Google's processing, see [Google's Privacy Policy](https://policies.google.com/privacy).
+
 ---
 
 ## 4. Processing Purposes
@@ -280,6 +298,7 @@ Your data is processed for the following purposes:
 6. **Service improvement** — usage analysis to improve features
 7. **Contribution moderation** — verification of submitted product data accuracy
 8. **Aggregated behavioral analysis** — improving recommendation algorithms, based on anonymized data
+9. **Advertising, measurement, and fraud prevention** — only when advertising is enabled in the version or configuration used
 
 ---
 
@@ -305,6 +324,7 @@ Your data may be processed by the following technical sub-processors, solely for
 | **Google Firebase** (Auth, Firestore, Storage) | Account, product data, history | Infrastructure, authentication, storage |
 | **Google Gemini API** | Label images, ingredient text | Automated analysis, data extraction |
 | **Google ML Kit** | Images captured on device | Optical character recognition (OCR) |
+| **Google AdMob (Google Mobile Ads)**, if advertising is enabled | IP address, available identifiers, App or ad interactions and diagnostics | Ad delivery and measurement, frequency capping, fraud prevention |
 
 **Regarding Gemini API:** label images and text transmitted to the Gemini API are used solely to generate an analysis response. This processing is subject to [Google's Privacy Policy](https://policies.google.com/privacy). No personally identifiable data is intentionally included in these transmissions.
 
