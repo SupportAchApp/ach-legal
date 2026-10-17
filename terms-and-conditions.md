@@ -1,3 +1,6 @@
+---
+---
+
 # Conditions Générales d'Utilisation / Terms and Conditions
 
 **Application : Ach — Scanner Alimentaire**
